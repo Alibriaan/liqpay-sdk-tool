@@ -1,1 +1,8 @@
 .husky
+.eslintignore
+.eslintrc
+jest.config.js
+Readme.md
+tsconfig.json
+src
+.lintstagedrc.json
