@@ -33,7 +33,7 @@
     "prepublishOnly" : "npm test && npm run lint",
     "build": "tsc",
     "lint": "eslint . --ext .ts",
-    "lint-staged": "lint-staged",
+    "lint-staged": "lint-staged --config .lintstagedrc.json",
     "lint:fix": "eslint . --ext .ts --fix",
     "test": "jest --config jest.config.ts",
     "test-staged": "jest --silent --watchAll=false --coverage=false"
