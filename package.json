@@ -1,7 +1,7 @@
 {
   "name": "liqpay-sdk-tool",
   "description": "LiqPay SDK Tool for node js, implements all LiqPay API methods and provides a simple interface for working with LiqPay API in node js.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "author": {
