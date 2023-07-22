@@ -3,6 +3,8 @@ import Joi from 'joi';
 import { LiqPayData } from './interfaces/liq-pay.interfaces';
 import { LiqPayDataSchema, LiqPayEmptyStringValidation } from './utils/validate';
 
+export * from './interfaces/liq-pay.interfaces';
+
 export function getConvertedToBase64Data(data: LiqPayData) {
     const validation = LiqPayDataSchema.validate(data);
 
